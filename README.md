@@ -1,5 +1,5 @@
 # pycode
-Python solutions to various problems in the data structures and algorithms space
+Python solutions to various problems in the data structures and algorithms space.
 
 ## Requirements
 - Python 3.6+
