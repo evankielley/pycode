@@ -11,6 +11,9 @@ def f(tasks, n):
 
     This solution uses a max heap and a queue to determine the task order that will take the least amount of time to process.
 
+    Time: O(n), pop from heap in O(logn) but must iterate through entire list so O(n).
+    Space: O(n), uses a max heap and a queue.
+
     Parameters
     ----------
     tasks : list of str
@@ -22,6 +25,11 @@ def f(tasks, n):
     -------
     int
         The time needed to complete the entire list of tasks.
+
+    Example
+    -------
+    >>> f(["A","A","A","B","B","B"], 2)
+    8
     """
     counter = collections.Counter(tasks)
     max_heap = [-count for count in counter.values()]
