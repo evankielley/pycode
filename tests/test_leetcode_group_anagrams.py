@@ -20,7 +20,3 @@ class Test(unittest.TestCase):
         self.assertItemsEqual(self.f(["",""]), [["",""]])
     def test_3(self):
         self.assertItemsEqual(self.f(["","b"]), [[""],["b"]])
-
-
-if __name__ == "__main__":
-    unittest.main()

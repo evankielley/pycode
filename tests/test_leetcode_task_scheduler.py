@@ -11,7 +11,3 @@ class Test(unittest.TestCase):
         self.assertEqual(f(["A","A","A","B","B","B"], 0), 6)
     def test_3(self):
         self.assertEqual(f(["A","A","A","A","A","A","B","C","D","E","F","G"], 2), 16)
-
-
-if __name__ == "__main__":
-    unittest.main()
