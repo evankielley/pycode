@@ -6,6 +6,11 @@ https://leetcode.com/problems/permutation-in-string/
 def f(s1, s2):
     """Determine if a string contains a permutation of another string.
 
+    This solution uses a sliding window approach.
+
+    Time: O(n)
+    Space: O(n)
+
     Parameters
     ----------
     s1 : str
