@@ -6,7 +6,7 @@ https://leetcode.com/problems/generate-parentheses/
 def f(n):
     """Generate all valid combinations of n pairs of parentheses.
 
-    This solution uses a BFS approach.
+    This solution uses a DFS approach.
 
     Time: O(2^n)
     Space: O(2^n)
