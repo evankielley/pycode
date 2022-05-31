@@ -37,13 +37,9 @@ def f(s, k):
     check_is_valid = lambda l, r: r - l + 1 - max(hashmap.values()) <= k
     while r < n:
         hashmap[s[r]] = hashmap.get(s[r], 0) + 1
-        is_valid = check_is_valid(l, r)
-        if is_valid:
-            max_len = max(max_len, r - l + 1)
-        else:
-            while not is_valid and l < r:
-                hashmap[s[l]] -= 1
-                l += 1
-                is_valid = check_is_valid(l, r)
+        while not check_is_valid(l, r):
+            hashmap[s[l]] -= 1
+            l += 1
+        max_len = max(max_len, r - l + 1)
         r += 1
     return max_len
