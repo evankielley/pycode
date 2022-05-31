@@ -24,7 +24,7 @@ def f(hand, group_size):
     bool
         True if the cards can be arranged into groups of straights, else false.
 
-    Example
+    Examples
     -------
     >>> f([1,2,3,6,2,3,4,7,8], 3)
     True

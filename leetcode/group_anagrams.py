@@ -21,7 +21,7 @@ def f(words):
     list of list of str
         A list of lists of words that are anagrams of each other.
 
-    Example
+    Examples
     -------
     >>> f(["eat","tea","tan","ate","nat","bat"])
     [["bat"],["nat","tan"],["ate","eat","tea"]]

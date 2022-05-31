@@ -21,7 +21,7 @@ def f(nums):
     list of int
         A list of integers that are products of all elements in the array except that at its index.
 
-    Example
+    Examples
     -------
     >>> f([1,2,3,4])
     [24,12,8,6]

@@ -27,7 +27,7 @@ def f(nums, k, solver='bucket_sort'):
     NotImplementedError
         Raises this error if the solver specified is not recognized.
 
-    Example
+    Examples
     -------
     >>> f([1,1,1,2,2,3], 2)
     [1,2]

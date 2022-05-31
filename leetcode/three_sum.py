@@ -21,7 +21,7 @@ def f(nums):
     list of list of int
         A list of all index-unique triplets that sum to zero.
 
-    Example
+    Examples
     -------
     >>> f([-1,0,1,2,-1,-4])
     [[-1,-1,2],[-1,0,1]]

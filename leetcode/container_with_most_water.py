@@ -21,7 +21,7 @@ def f(heights):
     int
         The maximum area that can be filled with a fluid.
 
-    Example
+    Examples
     -------
     >>> f([1,8,6,2,5,4,8,3,7])
     49

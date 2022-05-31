@@ -26,7 +26,7 @@ def f(tasks, n):
     int
         The time needed to complete the entire list of tasks.
 
-    Example
+    Examples
     -------
     >>> f(["A","A","A","B","B","B"], 2)
     8
