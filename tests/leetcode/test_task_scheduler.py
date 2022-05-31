@@ -6,8 +6,8 @@ class Test(unittest.TestCase):
     def setUp(self):
         self.f = f
     def test_1(self):
-        self.assertEqual(f(["A","A","A","B","B","B"], 2), 8)
+        self.assertEqual(self.f(["A","A","A","B","B","B"], 2), 8)
     def test_2(self):
-        self.assertEqual(f(["A","A","A","B","B","B"], 0), 6)
+        self.assertEqual(self.f(["A","A","A","B","B","B"], 0), 6)
     def test_3(self):
-        self.assertEqual(f(["A","A","A","A","A","A","B","C","D","E","F","G"], 2), 16)
+        self.assertEqual(self.f(["A","A","A","A","A","A","B","C","D","E","F","G"], 2), 16)
